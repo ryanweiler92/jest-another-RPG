@@ -4,7 +4,7 @@ console.log(new Potion());
 
 const Player = require('../lib/Player');
 
-test('creates a player object', () => {
+it('creates a player object', () => {
     const player = new Player('Dave');
 
     expect(player.name).toBe('Dave');
